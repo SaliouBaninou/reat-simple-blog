@@ -1,9 +1,51 @@
-# React + Vite
+# Blog avec React, Vite, DaisyUI et JSONPlaceholder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Ce projet est un blog simple construit avec React et Vite, utilisant la librairie DaisyUI pour le style et JSONPlaceholder comme API pour récupérer les articles et les commentaires.
 
-Currently, two official plugins are available:
+## Technologies utilisées
+- **React** (avec Vite pour le bundling rapide)
+- **DaisyUI** (basé sur Tailwind CSS pour le style)
+- **JSONPlaceholder** (API simulée pour les articles et commentaires)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# reat-simple-blog
+## Installation
+
+1. **Cloner le dépôt**
+   ```bash
+   git clone https://github.com/SaliouBaninou/reat-simple-blog.git
+   cd reat-simple-blog
+   ```
+
+2. **Installer les dépendances**
+   ```bash
+   npm install
+   ```
+
+3. **Lancer le projet**
+   ```bash
+   npm run dev
+   ```
+
+## Fonctionnalités
+- Affichage de la liste des articles
+- Consultation d'un article avec ses détails et commentaires
+- Interface responsive avec DaisyUI
+
+## Utilisation de l'API JSONPlaceholder
+Les données sont récupérées depuis `https://jsonplaceholder.typicode.com/` :
+- Articles : `/posts`
+
+
+## Personnalisation
+Si tu veux modifier le design, tu peux personnaliser les styles avec Tailwind et DaisyUI dans `tailwind.config.js`.
+
+## Déploiement
+Pour builder l'application en production :
+```bash
+npm run build
+```
+Tu peux ensuite déployer le dossier `dist` sur une plateforme comme Vercel, Netlify ou GitHub Pages.
+
+## Auteur
+Ce projet a été réalisé avec passion et dévouement par **SALIOU Baninou**. 🎉👏🔥
+
