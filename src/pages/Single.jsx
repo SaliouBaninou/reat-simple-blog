@@ -16,7 +16,7 @@ export function Single({ postId }) {
     return <p>Une erreur s'est produit</p>;
   }
   return (
-    <div className="max-w-full w-[750px] m-auto">
+    <div className="max-w-full w-[750px] m-auto p-4">
       <div className="w-full mb-8">
         <img
           src={`https://picsum.photos/500/300?random=${postId}`}
